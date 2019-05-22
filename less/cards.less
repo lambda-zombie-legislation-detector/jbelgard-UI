@@ -1,0 +1,28 @@
+
+.cards-container {
+    .flex(space-evenly);
+    .width-100();
+    margin-top: 16px;
+    flex-wrap: wrap;
+    @media(min-width: 1200px){
+        width: 100%;
+    }
+    .card {
+        .border-bottom-gold();
+        .flex(space-between, none, column);
+        background-color: @color-four;
+        width: 380px;
+        margin-bottom: 16px;
+        padding: 24px;
+        .headline {
+            font-size: 25px;
+            font-family: Acme, serif;
+        }
+        .content {
+            padding-left: 10px;
+            font-size: 12px;
+            letter-spacing: 1px;
+            font-weight: bold;
+        }
+    }
+}
