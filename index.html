@@ -1,0 +1,78 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>LegiCycle</title>
+
+  <link rel="stylesheet" href="css/index.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+  <script src="js/tabs.js" async></script>
+  <script src="js/carousel.js" async></script>
+  <link href="https://fonts.googleapis.com/css?family=Acme&display=swap" rel="stylesheet"> 
+  <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+  <![endif]-->
+</head>
+<body>
+  <!--Top Bar-->
+  <div class='top-bar'>
+    <div class='container'>
+      <div class='container-left'>
+        <span>Home</span><span>About Us</span><span>Get the App</span>
+      </div>
+      <div class='container-right'>
+        <button class='sign-in'>Sign In</button><button class='sign-up'>Sign Up</button>
+      </div>
+    </div>
+  </div>
+  <!--Header-->
+  <div class='header'>
+    <h1>LegiCycle</h1>
+  </div>
+  <!--Carousel Component-->
+  <div class='carousel'>
+    <div class='left-button'><</div>
+      <img src='./img/seal_of_the_president.png' />
+      <img src='./img/1200px-Seal_of_the_United_States_Senate.svg.png' />
+      <img src='./img/Seal_of_the_United_States_House_of_Representatives.svg.png' />
+      <img src='./img/1280px-Flag_of_the_United_States.svg.png' />
+    <div class='right-button'>></div>
+  </div>
+  <!--Tabs Component-->
+  <div class='tabs'>
+    <div class='options'>
+      <span class='title'>LegiCycle</span>
+      <div data-tab='what' class='tab'>What does it do?</div>
+      <div data-tab='how' class='tab'>How does it work?</div>
+      <div data-tab='look' class='tab'>Check it out</div>
+    </div>
+  </div>
+  <!--Cards Component-->
+  <div class='cards-container'>
+    <!--Card Components-->
+    <div class='card' data-tab='what'>
+      <div class='headline'>What does LegiCycle do?</div>
+      <div class='content'>Little trees and bushes grow however makes them happy.</div>
+    </div>
+    <div class='card' data-tab='how'>
+      <div class='headline'>How does it work?</div>
+      <div class='content'>Now it's beginning to make a little sense.</div>
+    </div>
+    <div class='card' data-tab='look'>
+      <div class='headline'>Check it out</div>
+      <div class='content'>We'll lay all these little funky little things in there.</div>
+    </div>
+  </div>
+  <div class='footer'>
+    <footer>
+      <a href='#'>Contact</a>
+      <a href='#'>Home</a>
+      <a href='#'>About Us</a>
+      <a href='#'>App</a>
+    </footer>
+  </div>
+</body>
+</html>
