@@ -27,3 +27,32 @@
         }
     }
 }
+
+.about-cards-container {
+    .flex(space-evenly);
+    width-100();
+    margin-top: 16px;
+    flex-wrap: wrap;
+    @media(min-width: 1200px){
+        width: 100%;
+    }
+    .about-card {
+        .border-bottom-gold();
+        .flex(space-between, none, column);
+        background-color: @color-two;
+        color: @color-one;
+        width: 380px;
+        margin-bottom: 16px;
+        padding: 24px;
+        .about-headline {
+            font-size: 25px;
+            font-family: Acme, serif;
+        }
+        .about-content {
+            padding-left: 10px;
+            font-size: 12px;
+            letter-spacing: 1px;
+            font-weight: bold;
+        }
+    }
+}
