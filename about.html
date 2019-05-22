@@ -9,8 +9,7 @@
   <link rel="stylesheet" href="css/index.css">
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
   crossorigin="anonymous"></script>
-  <script src="js/abouttabs.js" async></script>
-  <script src="js/carousel.js" async></script>
+  <script src="js/tabs.js" async></script>
   <link href="https://fonts.googleapis.com/css?family=Acme&display=swap" rel="stylesheet"> 
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
@@ -21,7 +20,9 @@
   <div class='top-bar'>
     <div class='container'>
       <div class='container-left'>
-        <span>Home</span><span>About Us</span><span>Get the App</span>
+        <span><a href='index.html'>Home</a></span>
+        <span><a href='about.html'>About Us</a></span>
+        <span><a href = '#'>Get the App</a></span>
       </div>
       <div class='container-right'>
         <button class='sign-in'>Sign In</button><button class='sign-up'>Sign Up</button>
@@ -33,54 +34,54 @@
     <h1>LegiCycle</h1>
   </div>
   <!--Tabs Component-->
-  <div class='about-tabs'>
-    <div class='about-people'>
-      <span class='about-title'>About Us</span>
+  <div class='tabs'>
+    <div class='options'>
+      <span class='title'>About Us</span>
       <br />
-      <div data-tab='person1' class='about-tab'>Jason Belgard</div>
-      <div data-tab='person2' class='about-tab'>Anthony Stachowitz</div>
-      <div data-tab='person3' class='about-tab'>Jack Ober</div>
-      <div data-tab='person4' class='about-tab'>Jonathan David</div>
-      <div data-tab='person5' class='about-tab'>Josh Kersting</div>
-      <div data-tab='person6' class='about-tab'>Michael Landers</div>
-      <div data-tab='person7' class='about-tab'>Will Jarvis</div>
-      <div data-tab='person8' class='about-tab'>Winston Lee</div>
+      <div data-tab='person1' class='tab'>Jason Belgard</div>
+      <div data-tab='person2' class='tab'>Anthony Stachowitz</div>
+      <div data-tab='person3' class='tab'>Jack Ober</div>
+      <div data-tab='person4' class='tab'>Jonathan David</div>
+      <div data-tab='person5' class='tab'>Josh Kersting</div>
+      <div data-tab='person6' class='tab'>Michael Landers</div>
+      <div data-tab='person7' class='tab'>Will Jarvis</div>
+      <div data-tab='person8' class='tab'>Winston Lee</div>
     </div>
   </div>
   <!--Cards Component-->
-  <div class='about-cards-container'>
+  <div class='cards-container'>
     <!--Card Components-->
-    <div class='about-card' data-tab='person1'>
-      <div class='about-headline'>Jason Belgard</div>
-      <div class='about-content'>Little trees and bushes grow however makes them happy.</div>
+    <div class='card' data-tab='person1'>
+      <div class='headline'>Jason Belgard</div>
+      <div class='content'>Little trees and bushes grow however makes them happy.</div>
     </div>
-    <div class='about-card' data-tab='person2'>
-      <div class='about-headline'>Anthony Stachowitz</div>
-      <div class='about-content'>Now it's beginning to make a little sense.</div>
+    <div class='card' data-tab='person2'>
+      <div class='headline'>Anthony Stachowitz</div>
+      <div class='content'>Now it's beginning to make a little sense.</div>
     </div>
-    <div class='about-card' data-tab='person3'>
-      <div class='about-headline'>Jack Ober</div>
-      <div class='about-content'>We'll lay all these little funky little things in there.</div>
+    <div class='card' data-tab='person3'>
+      <div class='headline'>Jack Ober</div>
+      <div class='content'>We'll lay all these little funky little things in there.</div>
     </div>
-    <div class='about-card' data-tab='person4'>
-        <div class='about-headline'>Jonathan David</div>
-        <div class='about-content'>We'll lay all these little funky little things in there.</div>
+    <div class='card' data-tab='person4'>
+        <div class='headline'>Jonathan David</div>
+        <div class='content'>We'll lay all these little funky little things in there.</div>
     </div>
-    <div class='about-card' data-tab='person5'>
-        <div class='about-headline'>Josh Kersting</div>
-        <div class='about-content'>We'll lay all these little funky little things in there.</div>
+    <div class='card' data-tab='person5'>
+        <div class='headline'>Josh Kersting</div>
+        <div class='content'>We'll lay all these little funky little things in there.</div>
     </div>
-    <div class='about-card' data-tab='person6'>
-        <div class='about-headline'>Michael Landers</div>
-        <div class='about-content'>We'll lay all these little funky little things in there.</div>
+    <div class='card' data-tab='person6'>
+        <div class='headline'>Michael Landers</div>
+        <div class='content'>We'll lay all these little funky little things in there.</div>
     </div>
-    <div class='about-card' data-tab='person7'>
-        <div class='about-headline'>Will Jarvis</div>
-        <div class='about-content'>We'll lay all these little funky little things in there.</div>
+    <div class='card' data-tab='person7'>
+        <div class='headline'>Will Jarvis</div>
+        <div class='content'>We'll lay all these little funky little things in there.</div>
     </div>
-    <div class='about-card' data-tab='person8'>
-        <div class='about-headline'>Winston Lee</div>
-        <div class='about-content'>We'll lay all these little funky little things in there.</div>
+    <div class='card' data-tab='person8'>
+        <div class='headline'>Winston Lee</div>
+        <div class='content'>We'll lay all these little funky little things in there.</div>
     </div>
   </div>
   <div class='footer'>

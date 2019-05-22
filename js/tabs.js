@@ -15,7 +15,7 @@ class TabLink {
         const tabs = document.querySelectorAll('.tab');
         tabs.forEach(item => item.classList.remove('active-tab'));
         const cards = document.querySelectorAll('.card');
-        cards.forEach(item => item.getElementsByClassName.display = 'none');
+        cards.forEach(item => item.style.display = 'none');
         this.tabElement.classList.add('active-tab');
         this.cards.forEach(card => card.selectCard());
     }
