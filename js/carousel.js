@@ -9,6 +9,7 @@ class Carousel {
         this.carousel.addEventListener('click', () => {this.selectArrow()});
     }
     selectArrow() {
+        
         if (this.carousel.classList.contains('left-button')) {
             console.log('leftbutton');
             this.current.style.display = 'none';
@@ -27,4 +28,4 @@ class Carousel {
 }
 
 let carousel = document.querySelectorAll('.carousel, .left-button, .right-button');
-carousel.forEach(item => newCarousel(item));
+carousel.forEach(item => new Carousel(item));
