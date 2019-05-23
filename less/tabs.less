@@ -5,8 +5,12 @@
     .width-100();
     height: 47px;
     background-color: @color-one;
+    
     @media(min-width: 1280px){
         width: 100%;
+    }
+    @media(max-width: 500px) {
+        width: 500px;
     }
     .options {
         .flex(none, center);
